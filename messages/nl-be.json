@@ -1,19 +1,6 @@
 {
-  "about": "over",
-  "inhabitants": "bewoners",
-  "calendar": "kalender",
-  "Subscribe": "Schrijf in",
-  "e-mail": "e-mail",
-  "Stories": "Stories",
-  "Story": "Story",
-  "Resident": "Inwoner",
-  "Events": "Evenementen",
-  "Event": "Evenement",
-  "Residents": "Inwoners",
-  "All": "Alles",
-  "When": "Wanneer",
-  "EVENT PAGE": "EVENT PAGE",
-  "Show me": "Toon",
-  "Related stories": "Gerelateerde stories",
-  "Related events": "Gerelateerde evenementen"
+  "Page": "Page",
+  "Home": "Acceuil",
+  "Go home": "À l'acceuil",
+  "Go to page": "À la page"
 }

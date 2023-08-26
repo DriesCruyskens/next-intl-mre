@@ -1,22 +1,17 @@
-
-import Navigation from "@/src/components/navbar/Navigation";
-import { useLocale } from "next-intl";
+import LocaleSwitcher from "@/src/components/LocaleSwitcher";
+import { useTranslations } from "next-intl";
 import Link from "next-intl/link";
 
-export default async function Home() {
-  const locale = useLocale();
+export default function Home() {
+  const t = useTranslations();
 
   return (
-    <main className="flex flex-col gap-10 p-2 md:gap-16 md:p-10">
-      <div className="text-3xl md:text-5xl">
-        <p>Rich Text</p>
+    <main>
+      <h1>{t("Home")}</h1>
+      <div>
+        <LocaleSwitcher />
       </div>
-      <div className="sticky top-5 z-10">
-        <Navigation></Navigation>
-      </div>
-      <Link href="/events/1">
-      link
-      </Link>
+      <Link href="/events/1">{t("Go to page")}</Link>
     </main>
   );
 }

@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { MouseEventHandler, useCallback, useEffect, useRef } from "react";
-import RoundLocaleSwitcher from "./navbar/RoundLocaleSwitcher";
 
 export default function ContentModal({
   children,
@@ -48,28 +47,11 @@ export default function ContentModal({
       className="fixed bottom-0 left-0 right-0 top-0 z-20 overflow-scroll p-2 pt-4 backdrop-blur-xl  md:p-10"
       onClick={onClick}
     >
-      <div className="right-5 top-10 mb-4 flex w-full justify-end md:absolute">
-        <RoundLocaleSwitcher />
-
-        <button
-          onClick={onDismiss}
-          type="button"
-          className="rounded-full bg-white p-3 shadow-lg transition-shadow hover:cursor-pointer hover:shadow-none"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="h-6 w-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
+      <h1>Inside Modal</h1>
+      <p>Refresh to go to page</p>
+      <div className="absolute right-5 top-10 mb-4">
+        <button onClick={onDismiss} type="button">
+          Close modal
         </button>
       </div>
       <div ref={wrapper} className="m-auto w-full md:h-full md:w-11/12">

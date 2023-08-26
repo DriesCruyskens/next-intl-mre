@@ -1,19 +1,6 @@
 {
-  "about": "à propos",
-  "inhabitants": "habitants",
-  "calendar": "calendrier",
-  "Subscribe": "Abonnez-vous",
-  "e-mail": "email",
-  "Stories": "Histoires",
-  "Story": "Histoire",
-  "Resident": "Résident",
-  "Events": "Événement",
-  "Event": "Événement",
-  "Residents": "Résidents",
-  "All": "Tout",
-  "When": "Quand",
-  "EVENT PAGE": "EVENT PAGE",
-  "Show me": "Affichez",
-  "Related stories": "Histoires connexes",
-  "Related events": "Événements connexes"
+  "Page": "Pagina",
+  "Home": "Thuis",
+  "Go home": "Ga naar huis",
+  "Go to page": "Ga naar pagina"
 }

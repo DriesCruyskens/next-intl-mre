@@ -1,19 +1,6 @@
 {
-  "about": "about",
-  "inhabitants": "inhabitants",
-  "calendar": "calendar",
-  "Subscribe": "Subscribe",
-  "e-mail": "e-mail",
-  "Stories": "Stories",
-  "Story": "Story",
-  "Resident": "Resident",
-  "Events": "Events",
-  "Event": "Event",
-  "Residents": "Residents",
-  "All": "All",
-  "When": "When",
-  "EVENT PAGE": "EVENT PAGE",
-  "Show me": "Show me",
-  "Related stories": "Related stories",
-  "Related events": "Related events"
+  "Page": "Page",
+  "Home": "Home",
+  "Go home": "Go home",
+  "Go to page": "Go to page"
 }

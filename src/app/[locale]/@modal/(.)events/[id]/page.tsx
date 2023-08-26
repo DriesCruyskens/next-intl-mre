@@ -1,10 +1,10 @@
 import ContentModal from "@/src/components/ContentModal";
-import { EventSwipe } from "../../../events/[id]/page";
+import { EventPageContent } from "../../../events/[id]/page";
 
-export default function EventModal({ params }: { params: { id: string } }) {
+export default function EventModal() {
   return (
     <ContentModal>
-      <EventSwipe eventId={params.id} />
+      <EventPageContent />
     </ContentModal>
   );
 }

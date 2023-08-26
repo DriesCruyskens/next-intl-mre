@@ -1,24 +1,24 @@
-
 import HomeButton from "@/src/components/HomeButton";
-import RoundLocaleSwitcher from "@/src/components/navbar/RoundLocaleSwitcher";
+import LocaleSwitcher from "@/src/components/LocaleSwitcher";
+import { useTranslations } from "next-intl";
 
-
-export default function EventPage({ params }: { params: { id: string } }) {
+export default function EventPage() {
   return (
-    <main className="m-auto w-11/12 p-2 pt-3 md:p-10">
-      <div className="right-5 top-10 mb-4 flex w-full justify-end md:absolute">
-        <RoundLocaleSwitcher />
-        <HomeButton />
-      </div>
-      <EventSwipe eventId={params.id} />
+    <main className="">
+      <EventPageContent />
+      <HomeButton />
     </main>
   );
 }
 
-export async function EventSwipe({ eventId }: { eventId: string }) {
+export function EventPageContent() {
+  const t = useTranslations();
   return (
-    <div className="h-full w-full overflow-scroll rounded-xl bg-jasmine ">
-      Rich Text
-    </div>
+    <>
+      <h1>{t("Page")}</h1>
+      <div className="">
+        <LocaleSwitcher />
+      </div>
+    </>
   );
 }
