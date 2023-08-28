@@ -22,13 +22,9 @@ export default function Layout(props: {
   // }
 
   return (
-    <html lang={props.params.locale}>
-      <NextIntlClientProvider locale={locale}>
-        <body className="p-16">
-          {props.modal}
-          {props.children}
-        </body>
-      </NextIntlClientProvider>
-    </html>
+    <NextIntlClientProvider locale={locale}>
+      {props.modal}
+      {props.children}
+    </NextIntlClientProvider>
   );
 }
