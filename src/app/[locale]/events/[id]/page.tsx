@@ -4,10 +4,10 @@ import { useTranslations } from "next-intl";
 
 export default function EventPage() {
   return (
-    <main className="">
+    <div className="">
       <EventPageContent />
       <HomeButton />
-    </main>
+    </div>
   );
 }
 
