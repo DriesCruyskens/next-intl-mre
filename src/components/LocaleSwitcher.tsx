@@ -11,7 +11,7 @@ export default function LocaleSwitcher() {
 
   return (
     <div className="flex flex-row gap-4">
-      {locales.map((locale) => {
+      {/* {locales.map((locale) => {
         return (
           <Link
             href={`${pathname}`}
@@ -22,7 +22,7 @@ export default function LocaleSwitcher() {
             {locale}
           </Link>
         );
-      })}
+      })} */}
     </div>
   );
 }
